@@ -11,6 +11,18 @@
         <content type="html"><![CDATA[<p>用户态 -&gt; 内核态：需要“中断”引起，硬件自动变态，操作系统强行夺取CPU控制权</p><hr><h4 id="内中断-vs-外中断"><a href="#内中断-vs-外中断" class="headerlink" title="内中断 vs 外中断"></a>内中断 vs 外中断</h4><p>引发内中断：</p><ol><li>非法操作 除0</li><li>用户态执行特权指令</li><li>应用程序想请求内核服务，主动让出CPU控制权，执行陷入指令</li></ol><p>引发外中断：</p><ol><li>与当前执行的指令无关</li><li>外部设备或者时钟中断</li></ol><p><strong>判别要素</strong>：是否和当前指令有关</p><p>陷入</p><p>故障：可修复的问题</p><p>终止：致命错误，终止应用程序</p><p>中断机制：</p><p>根据中断信号类型来决定执行哪一个中断处理程序，属于内核程序</p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
       
     </entry>
     
